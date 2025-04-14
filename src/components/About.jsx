@@ -1,7 +1,7 @@
 import React from 'react'
 import tile from '../assets/tile.svg'
 import profile from '../assets/mainProfile.jpg'
-import Skills from './common/skills'
+import Skills from './common/Skills'
 import Heading from './common/Heading'
 
 const About = () => {
