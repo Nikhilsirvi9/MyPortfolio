@@ -16,6 +16,7 @@ const Projects = () => {
                                 title={value.title}
                                 serial={value.id}
                                 image={value.img}
+                                url={value.GitHubLink}
                                 key={key}
                             />
                         )

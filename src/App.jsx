@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-neutral-900 h-max w-full">
+      <div className="bg-neutral-900 h-max w-full ">
           <Navbar/>
           <Hero/>
           <About/>

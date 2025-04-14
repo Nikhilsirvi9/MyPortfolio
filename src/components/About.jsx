@@ -7,15 +7,15 @@ import Heading from './common/Heading'
 const About = () => {
   return (
     <div className="flex justify-center px-4 md:px-8" id="about">
-      <div className="flex flex-col text-white gap-10 w-full lg:w-[78rem]">
+      <div className="flex flex-col text-white  gap-10 w-full lg:w-[78rem]">
         <Heading title="About me" />
 
-        <div className="flex flex-col lg:flex-row gap-10">
+        <div className="flex flex-col lg:flex-row gap-10 ">
           <div className="flex justify-center">
             <img
               src={profile}
               alt="profile"
-              className="w-[20rem] md:w-[30rem] lg:w-[35rem] rounded-xl"
+              className="w-[20rem] md:w-[30rem] lg:w-[55rem] rounded-xl"
             />
           </div>
 

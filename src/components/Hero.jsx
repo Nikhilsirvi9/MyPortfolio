@@ -10,7 +10,7 @@ const Hero = () => {
         }
     }
     return (
-        <div className="flex justify-center mt-3 px-4 md:px-8" id='home'>
+        <div className="flex justify-center mt-3 px-4 md:px-8 " id='home'>
             <div className="text-white flex flex-col gap-9 h-screen w-full md:w-[80%] lg:w-[60%] justify-start items-center">
                 <div>
                     <img

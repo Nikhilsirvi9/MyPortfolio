@@ -9,7 +9,7 @@ const workData = [
         id: 1,
         title: "MoviePedia",
         img : movies,
-        GitHubLink: "google.com",
+        GitHubLink: "https://github.com/Nikhilsirvi9/MoviePedia",
     },
     {
         id: 2,
@@ -21,19 +21,19 @@ const workData = [
         id: 3,
         title: "Expence Tracker",
         img : expence,
-        GitHubLink: "google.com",
+        GitHubLink: "https://github.com/Nikhilsirvi9/Expence-Tracker",
     },
     {
         id: 4,
         title: "Password Generator",
         img : password,
-        GitHubLink: "google.com",
+        GitHubLink: "https://github.com/Nikhilsirvi9/Password-Generator",
     },
     {
         id: 5,
         title: "My Portfolio",
         img : portfolio,
-        GitHubLink: "google.com",
+        GitHubLink: "https://github.com/Nikhilsirvi9/MyPortfolio",
     }
 ];
 

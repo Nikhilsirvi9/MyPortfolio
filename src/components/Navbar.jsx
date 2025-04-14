@@ -18,14 +18,15 @@ const Navbar = () => {
         }
     }
 
+
     return (
-        <div className="text-white flex justify-between items-center p-5 md:mx-28">
+        <div className="text-white h-[5rem] flex justify-between items-center p-5  sticky top-0 bg-slate-950 z-20">
             <div className="relative">
                 <img src={logo} alt="logo" className="h-16 md:h-20" />
                 <img src={tile} alt="tile" className="absolute right-0 bottom-3 md:bottom-7" />
             </div>
 
-            <div className="md:hidden text-2xl cursor-pointer" onClick={toggleSidebar}>
+            <div className="md:hidden text-2xl absolute right-10 cursor-pointer" onClick={toggleSidebar}>
                 {isSidebarOpen ? <FaTimes /> : <FaBars />}
             </div>
 
@@ -49,21 +50,18 @@ const Navbar = () => {
                     </li>
                     <li
                         className="cursor-pointer hover:text-indigo-500 transition-colors"
-                        onClick={() => scrollToSection('services')}
+                        onClick={() => scrollToSection('Projects')}
                     >
-                        Services
-                    </li>
-                    <li
-                        className="cursor-pointer hover:text-indigo-500 transition-colors"
-                        onClick={() => scrollToSection('portfolio')}
-                    >
-                        Portfolio
+                        Projects
                     </li>
                     <li
                         className="cursor-pointer hover:text-indigo-500 transition-colors"
                         onClick={() => scrollToSection('contact')}
                     >
                         Contact
+                    </li>
+                    <li className='cursor-pointer hover:text-indigo-500 transition-colors' >
+                      My Socials
                     </li>
                 </ul>
             </div>
@@ -94,6 +92,9 @@ const Navbar = () => {
                 >
                     Contact
                 </li>
+                <li className='cursor-pointer hover:text-indigo-500 transition-colors'>
+                  My Socials
+                  </li>
             </ul>
 
             <li className='list-none' onClick={()=>scrollToSection('contact')}>
