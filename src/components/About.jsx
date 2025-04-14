@@ -22,10 +22,10 @@ const About = () => {
           <div className="flex flex-col gap-10">
             <div className="font-medium">
               <p className="font-popping text-sm md:text-base">
-                I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+              I am a passionate and motivated Frontend Developer currently in my final year of college, with hands-on experience in modern web technologies like React.js, Node.js, MongoDB, and Solidity. I’ve worked on real-world projects such as TravelPass, a blockchain-based verification system, and have actively participated in hackathons, where I honed my problem-solving and collaboration skills.
               </p>
               <p className="font-popping text-sm md:text-base">
-                My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.
+              I’m constantly exploring new tools and frameworks, and I bring a strong work ethic, adaptability, and a genuine enthusiasm for building responsive, user-friendly web applications.
               </p>
             </div>
 
