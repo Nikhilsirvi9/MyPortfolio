@@ -18,6 +18,10 @@ const Navbar = () => {
         }
     }
 
+    const redirectToLink = () => {
+        window.open("https://social-profile-amber.vercel.app/")
+    }
+
 
     return (
         <div className="text-white h-[5rem] flex justify-between items-center p-5  sticky top-0 bg-slate-950 z-20">
@@ -60,7 +64,7 @@ const Navbar = () => {
                     >
                         Contact
                     </li>
-                    <li className='cursor-pointer hover:text-indigo-500 transition-colors' >
+                    <li className='cursor-pointer hover:text-indigo-500 transition-colors' onClick={redirectToLink}>
                       My Socials
                     </li>
                 </ul>
@@ -92,7 +96,7 @@ const Navbar = () => {
                 >
                     Contact
                 </li>
-                <li className='cursor-pointer hover:text-indigo-500 transition-colors'>
+                <li className='cursor-pointer hover:text-indigo-500 transition-colors' onClick={redirectToLink}>
                   My Socials
                   </li>
             </ul>

@@ -3,8 +3,7 @@ import React from 'react'
 const Work = ({ title, serial, image ,url }) => {
 
     const redirectToLink = () => {
-        window.location.href = `${url}`
-        console.log("hello")
+        window.open(url)
     }
     return (
         <div className="text-white relative w-full sm:w-[20rem] md:w-[25rem] h-[15rem] hover:scale-105 transition-transform duration-500 hover:border-purple-600 hover:border-[4px] rounded-xl">
