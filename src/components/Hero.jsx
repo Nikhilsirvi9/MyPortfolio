@@ -26,7 +26,7 @@ const Hero = () => {
                             <span className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
                                 I am NIKHIL SIRVI,
                             </span>
-                            Frontend Developer based in INDIA
+                            DevOps Engineer based in INDIA
                         </h1>
                     </div>
                     <p className="text-[13px] md:text-[15px] lg:text-[16px] text-center px-4 md:px-16 lg:px-24 font-popping">
